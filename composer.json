@@ -4,7 +4,8 @@
     "version": "1.0",
     "homepage" : "https://withknown.com",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "squizlabs/php_codesniffer": "^3.4"
     },
     "license": "GPL-2.0-only",
     "keywords" : ["i18n", "Known"],
