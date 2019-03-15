@@ -1,0 +1,25 @@
+{
+    "name": "mapkyca/known-phpcs",
+    "description": "PHPCS Coding standards for Known",
+    "version": "1.0",
+    "homepage" : "https://withknown.com",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "GPL-2.0-only",
+    "keywords" : ["i18n", "Known"],
+    "authors": [
+	{
+	    "name": "Marcus Povey",
+	    "email": "marcus@marcus-povey.co.uk",
+	    "homepage": "https://www.marcus-povey.co.uk",
+	    "role": "Developer"
+	}, 
+	{
+            "name": "Ben Werdmuller",
+            "email": "ben@benwerd.com",
+            "homepage": "https://werd.io",
+            "role": "Developer"
+        }
+    ]
+}
