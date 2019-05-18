@@ -21,6 +21,12 @@
         </properties>
     </rule>
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+	<properties>
+	    <property name="forbiddenFunctions" type="array"
+		value="sizeof=>count,delete=>unset,print_r=>null,var_export=>null,die=>null" />
+	 </properties>
+    </rule>
     <exclude-pattern type="relative-root">/external/*</exclude-pattern>
     <exclude-pattern type="relative-root">/vendor/*</exclude-pattern>
 </ruleset>
