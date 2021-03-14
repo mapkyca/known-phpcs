@@ -1,7 +1,7 @@
 {
     "name": "mapkyca/known-phpcs",
     "description": "PHPCS Coding standards for Known",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage" : "https://withknown.com",
     "require": {
         "php": ">=7.0",
